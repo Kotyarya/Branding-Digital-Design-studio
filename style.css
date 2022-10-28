@@ -317,3 +317,67 @@ hr {
   background-color: white;
   opacity: 0.4;
 }
+.skills {
+  padding-top: 150px;
+}
+.skills-text {
+  display: flex;
+  flex-direction: column;
+}
+#skills-textl {
+  font-size: 80px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding-bottom: 61px;
+  padding-top: 77px;
+}
+.skills-text p {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.graphic {
+  display: inline-flex;
+  gap: 325px;
+  padding-bottom: 11px;
+}
+.lead {
+  display: inline-flex;
+  gap: 317px;
+  padding-bottom: 11px;
+}
+.photoshop {
+  display: inline-flex;
+  gap: 354px;
+  padding-bottom: 11px;
+}
+.illustration {
+  display: inline-flex;
+  gap: 350px;
+  padding-bottom: 11px;
+}
+.procent-graphic {
+  height: 2px;
+  width: 396px;
+  background-color: #c6100f;
+  margin-bottom: 20px;
+}
+.procent-lead {
+  height: 2px;
+  width: 203px;
+  background-color: #c6100f;
+  margin-bottom: 20px;
+}
+.procent-photoshop {
+  height: 2px;
+  width: 347px;
+  background-color: #c6100f;
+  margin-bottom: 20px;
+}
+.procent-illustration {
+  height: 2px;
+  width: 495px;
+  background-color: #c6100f;
+  margin-bottom: 20px;
+}
