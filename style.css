@@ -22,6 +22,17 @@ a {
   font-family: "Roboto", "sans-sefif";
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+._titlel {
+  font-size: 130px;
+  text-transform: uppercase;
+}
+._title {
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 ._container {
   width: 1200px;
@@ -95,12 +106,6 @@ hr {
   height: 680px;
   max-width: 1920px;
 }
-.Branding-text p {
-  margin: 0;
-  font-size: 130px;
-  line-height: 130px;
-  text-transform: uppercase;
-}
 .Branding-media {
   display: flex;
   transform: rotate(90deg);
@@ -141,10 +146,7 @@ hr {
   display: flex;
 }
 .play-text p {
-  font-size: 80px;
-  text-transform: uppercase;
   padding-left: 120px;
-  line-height: 88px;
 }
 .play-texts-button {
   display: flex;
@@ -199,9 +201,6 @@ hr {
 }
 .work {
   text-align: center;
-  font-size: 130px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   padding-top: 138px;
 }
 .img {
@@ -234,9 +233,6 @@ hr {
   align-items: center;
 }
 .build-text {
-  font-size: 80px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   align-self: flex-start;
 }
 .build-blocks {
@@ -280,11 +276,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.testimonials-title {
-  font-size: 80px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 .testimonials-img {
   padding-top: 82px;
@@ -422,9 +413,6 @@ hr {
   padding-top: 150px;
 }
 .contact p {
-  text-transform: uppercase;
-  font-size: 80px;
-  letter-spacing: 1px;
   padding-bottom: 60px;
 }
 .contact-text {
@@ -481,10 +469,7 @@ input::placeholder {
   align-items: center;
 }
 .blog-title {
-  font-size: 80px;
-  text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1px;
   margin-bottom: 80px;
 }
 .blog-blocks {
