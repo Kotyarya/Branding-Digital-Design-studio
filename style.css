@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   max-width: 1920px;
+  overflow: hidden;
 }
 p {
   font-family: "Roboto", "sans-sefif";
@@ -30,7 +31,6 @@ a {
 header {
   display: flex;
   height: 85px;
-
   align-items: center;
 }
 .header-text {
@@ -122,6 +122,7 @@ hr {
 }
 .play-imgl {
   position: absolute;
+  overflow: hidden;
 }
 .play-img {
   position: relative;
@@ -206,6 +207,7 @@ hr {
 .img {
   width: 100%;
   display: flex;
+  overflow: hidden;
 }
 .imgl {
   width: 100%;
@@ -458,6 +460,20 @@ input::placeholder {
   opacity: 0.8;
   align-self: flex-start;
 }
+.contact-button {
+  margin-top: 20px;
+  width: 168px;
+  height: 43px;
+  background-color: #c6100f;
+  border: none;
+  border-radius: 4px;
+}
+.contact-button a {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  opacity: 0.8;
+}
 .blog {
   padding-top: 150px;
   display: flex;
@@ -469,6 +485,7 @@ input::placeholder {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
+  margin-bottom: 80px;
 }
 .blog-blocks {
   display: flex;
@@ -484,7 +501,7 @@ input::placeholder {
   letter-spacing: 1px;
   width: 108px;
   text-align: center;
-  padding: 5px 0;
+  padding: 10px 0;
   margin-top: 30px;
 }
 .blog-block-text {
@@ -493,4 +510,76 @@ input::placeholder {
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 50px;
+}
+.design {
+  font-size: 12px;
+  background-color: rgba(255, 110, 110, 1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 108px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+.lets {
+  width: 100%;
+  margin-top: 100px;
+  background-color: #c6100f;
+  height: 169px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lets p {
+  text-transform: uppercase;
+  font-size: 58px;
+  overflow: hidden;
+}
+.footer {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.footer-left img {
+  padding-bottom: 30px;
+}
+.footer-left p {
+  padding-bottom: 30px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+.footer-left li {
+  display: flex;
+  gap: 12px;
+}
+.footer-left a {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 115px;
+}
+.footer-media {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-media img {
+  padding-right: 9px;
+  width: 16px;
+  height: 16px;
+  padding-bottom: 30px;
+}
+.footer-media p {
+  padding-right: 30px;
+  font-size: 15px;
+}
+.footer-contact p {
+  text-align: end;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding-bottom: 13px;
 }
