@@ -458,3 +458,39 @@ input::placeholder {
   opacity: 0.8;
   align-self: flex-start;
 }
+.blog {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-title {
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.blog-blocks {
+  display: flex;
+  gap: 52px;
+}
+.blog-block {
+  background-color: #171924;
+}
+.marketing {
+  font-size: 12px;
+  background-color: rgba(255, 149, 215, 1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 108px;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 30px;
+}
+.blog-block-text {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
