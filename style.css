@@ -319,10 +319,12 @@ hr {
 }
 .skills {
   padding-top: 150px;
+  display: flex;
 }
 .skills-text {
   display: flex;
   flex-direction: column;
+  margin-right: 105px;
 }
 #skills-textl {
   font-size: 80px;
@@ -380,4 +382,35 @@ hr {
   width: 495px;
   background-color: #c6100f;
   margin-bottom: 20px;
+}
+.facts {
+  padding-top: 150px;
+}
+.facts-blocks {
+  display: flex;
+}
+.facts-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.facts-block {
+  display: flex;
+  padding-top: 71px;
+}
+.facts-block-text {
+  margin-right: 32px;
+}
+.facts-block img {
+  padding: 12px 20px 12px 32px;
+}
+.facts-block-textl {
+  text-transform: uppercase;
+  font-size: 48px;
+}
+.facts-block-texts {
+  font-size: 20px;
+  opacity: 0.7;
+  width: 150px;
 }
