@@ -1,11 +1,11 @@
 html {
   background-color: black;
+  overflow-x: hidden;
 }
 body {
   margin: 0 auto;
   padding: 0 auto;
   max-width: 1920px;
-  overflow: hidden;
 }
 p {
   font-family: "Roboto", "sans-sefif";
